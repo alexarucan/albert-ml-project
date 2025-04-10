@@ -1,37 +1,7 @@
-# Foobar
+## 📁 Data
 
-Foobar is a Python library for dealing with word pluralization.
+Les fichiers de données nécessaires pour entraîner et tester le modèle ne sont **pas inclus dans le dépôt Git** pour des raisons de taille et de confidentialité.
 
-## Installation
+➡️ Vous pouvez les télécharger ici : [Lien vers le dossier Google Drive](https://drive.google.com/drive/folders/12JTnZtRQbY2GckIkGjPtzhvGKnOrSTf8?usp=share_link)
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+Une fois les fichiers téléchargés, placez-les dans le dossier suivant :
