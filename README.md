@@ -1,4 +1,3 @@
-## 📁 Data
  ## Objectif du projet
  
  Les fichiers de données nécessaires pour entraîner et tester le modèle ne sont **pas inclus dans le dépôt Git** pour des raisons de taille et de confidentialité.
@@ -40,3 +39,20 @@
  
  
  ---
+
+
+## Application Streamlit
+Nous avons développé une application interactive en Streamlit (app.py) pour exploiter notre modèle de prédiction dans une interface simple et pédagogique. Elle propose deux onglets.
+
+Le premier, Prédicteur de tumeur, permet de simuler un cas médical en ajustant les variables mesurées sur les noyaux cellulaires. Le modèle Random Forest retourne une probabilité de malignité, interprétée selon trois zones de risque (faible, modéré, élevé), accompagnée d’un radar chart pour visualiser le profil de la tumeur.
+
+Le second, Robustesse des modèles, permet d’injecter du bruit (valeurs manquantes) dans les données pour tester la stabilité des prédictions. Trois modèles sont comparés après imputation (régression logistique, SVM, Random Forest) à l’aide d’indicateurs de performance et de matrices de confusion.
+
+L’application met en lumière les limites et la fiabilité des prédictions dans des contextes réalistes, tout en restant accessible à un public non technique.
+
+
+---
+
+Ce projet nous a permis d’aborder un cas concret de classification binaire appliqué à un enjeu médical sensible : la détection précoce du cancer du sein. Nous avons comparé plusieurs modèles, testé leur robustesse à des données incomplètes et développé une application interactive pour rendre le modèle interprétable et accessible.
+
+Au-delà des performances techniques, ce travail met en évidence l’importance de la transparence, de l’explicabilité et de la prudence dans les systèmes d’aide à la décision médicale. Des pistes d’amélioration restent ouvertes, notamment l’intégration de données issues d’autres sources, l’optimisation du déploiement de l’application ou encore l’ajout de techniques de détection d’incertitude.
