@@ -1,3 +1,9 @@
+ ➡️ Vous pouvez accéder aux slides de présentations en cliquant sur ce lien : [Lien vers le lien Canva](https://www.canva.com/design/DAGmTqkTG04/YcxeVjaBN-3g7aRvpZ-ZVw/view?utm_content=DAGmTqkTG04&utm_campaign=share_your_design&utm_medium=link2&utm_source=shareyourdesignpanel)
+ (ou simplement dans le dossier "presentation")
+
+
+ ---
+ 
  ## Objectif du projet
  
  Les fichiers de données nécessaires pour entraîner et tester le modèle ne sont **pas inclus dans le dépôt Git** pour des raisons de taille et de confidentialité.
